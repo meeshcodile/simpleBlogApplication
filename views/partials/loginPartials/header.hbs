@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="./img/ms-icon-70x70.png" type="image/x-icon">
+  <title>.::JarsBlog|| Login::.</title>
+  <link rel="stylesheet" href="./public/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./public/css/bootstrap.css">
+  <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+</head>
+
+<div class="container">
+  {{#if success_messages}}
+  <div class="alert alert-success">
+    <strong>{{success_messages}}</strong>
+  </div>
+  {{/if}}
+
+  {{#if error_messages}}
+  <div class="alert alert-danger">
+    <strong>{{error_messages}}</strong>
+  </div>
+  {{/if}}
+
+</div>
